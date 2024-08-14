@@ -27,7 +27,9 @@ services:
       - nginx-proxy
 
   wordpress:
-    image: wordpress:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: example-wordpress
     restart: always
     environment:
