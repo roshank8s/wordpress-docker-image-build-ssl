@@ -54,7 +54,7 @@ Ensure your WordPress code is placed in the directory specified in the Dockerfil
 
 ### Build and Start the Services
 
-docker-compose up --build -d
+`docker-compose up --build -d`
 
 This command builds the custom WordPress image and starts all the services in detached mode.
 
@@ -65,8 +65,8 @@ Open your web browser and navigate to your domain (e.g., http://www.example.com)
 ### Updating Your WordPress Code
 To update your WordPress code, modify the files in the directory specified in the Dockerfile and rebuild the image:
 
-docker-compose build wordpress
-docker-compose up -d
+`docker-compose build wordpress`
+`docker-compose up -d`
 
 ### Troubleshooting
 Check Logs: Use docker-compose logs to view logs for debugging.
