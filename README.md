@@ -55,6 +55,7 @@ Ensure your WordPress code is placed in the directory specified in the Dockerfil
 ### Build and Start the Services
 
 docker-compose up --build -d
+
 This command builds the custom WordPress image and starts all the services in detached mode.
 
 ### Access Your WordPress Site
